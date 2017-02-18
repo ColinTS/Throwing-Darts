@@ -10,7 +10,7 @@ You've just recently been hired to calculate scores for a Dart Board game
 - An empty collection should return -1.
 - If all radiuses are less than 5, award 100 BONUS POINTS!
 - A collection of scores can be of **any length**.
-- valid values are between 1 and 20.
+- scores can be of any number between 1 and 20.
 
 Write a function that accepts a collection of number values and returns a total score using the above specification.
 
