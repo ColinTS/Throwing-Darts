@@ -6,8 +6,9 @@ You've just recently been hired to calculate scores for a Dart Board game
 - 5 points: radius between 5 and 10 inclusive
 - 10 points: radius less than 5
 
+An empty collection should return -1.
 If all radiuses are less than 5, award 100 BONUS POINTS!
-An empty array should return 0.
+A collection of scores can be of **any length**.
 
 Write a function named `scoreThrows` that accepts an Array of Numbers and returns a total score using the above specification.
 
@@ -15,7 +16,7 @@ Write a function named `scoreThrows` that accepts an Array of Numbers and return
 
     scoreThrows( [1, 5, 11] ) => returns 15 
     scoreThrows( [15, 20, 30] ) => returns 0
-    scoreThrows( [1, 2, 3] ) => returns 130
+    scoreThrows( [1, 2, 1, 4, 4, 2] ) => returns 160
     
 ## Additional Requirements
 - Create a Git Repository for this challenge
