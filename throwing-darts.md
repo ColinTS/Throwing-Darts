@@ -6,11 +6,12 @@ You've just recently been hired to calculate scores for a Dart Board game
 - 5 points: radius between 5 and 10 inclusive
 - 10 points: radius less than 5
 
-An empty collection should return -1.
-If all radiuses are less than 5, award 100 BONUS POINTS!
-A collection of scores can be of **any length**.
+## Some specifications to follow
+- An empty collection should return -1.
+- If all radiuses are less than 5, award 100 BONUS POINTS!
+- A collection of scores can be of **any length**.
 
-Write a function named `scoreThrows` that accepts an Array of Numbers and returns a total score using the above specification.
+Write a function that accepts a collection of number values and returns a total score using the above specification.
 
 ## Examples:
 
