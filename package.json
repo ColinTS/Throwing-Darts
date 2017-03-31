@@ -1,0 +1,27 @@
+{
+  "name": "Throwing-Darts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "darts.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/9e65b07feb41d6ec0537fe83df5eb386.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/9e65b07feb41d6ec0537fe83df5eb386"
+  },
+  "homepage": "https://gist.github.com/9e65b07feb41d6ec0537fe83df5eb386",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
